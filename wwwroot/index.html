@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        #connected {
+            color: #aaa;
+        }
+
+        .log {
+            text-align: center;
+        }
+
+    </style
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center" id="connected">Not Connected</h1>
+        <input type="text" id="jwt" placeholder="Paste JWT here"/>
+        <button id="connect" type="button">Connect</button>
+
+        <div class="log">
+            <h3>Logs</h3>
+            <div id="notifications"></div>
+        </div>
+
+        <div class="log">
+            <h3>Server Actions</h3>
+            <div id="server-actions"></div>
+        </div>
+    </div>
+
+
+
+    <script src="node_modules/@aspnet/signalr/dist/browser/signalr.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
