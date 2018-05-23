@@ -4,6 +4,18 @@ This project shows a simple and rudamentary example of using a POST API to inter
 
 It also uses JWT validation for protecting the routes and the websocket.
 
+## Install
+
+For Dotnet Core:
+
+`dotnet restore`
+
+For signalr javascript client:
+
+`cd wwwroot`
+`npm install`
+
+
 ## Run
 
 `dotnet run`
