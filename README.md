@@ -1,4 +1,4 @@
-# ASP.NET Core SignalR (2.1 RC1) Test Project
+# ASP.NET Core 2.1 SignalR  Test Project
 
 This project shows a simple and rudamentary example of using a POST API to interact with a websocket.
 
